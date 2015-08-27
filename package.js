@@ -1,7 +1,7 @@
 Package.describe({
-  name: "aldeed:autoform",
+  name: "mindfront:autoform",
   summary: "Easily create forms with automatic insert and update, and automatic reactive validation.",
-  git: "https://github.com/aldeed/meteor-autoform.git",
+  git: "https://github.com/mindfront/meteor-autoform.git",
   version: "5.4.1"
 });
 
