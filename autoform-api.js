@@ -1232,9 +1232,10 @@ setDefaults = function setDefaults(data) {
   if (!data._resolvedSchema) {
     var formType = data.type;
     var schema = data.schema;
-    if (schema) {
-      schema = AutoForm.Utility.lookup(schema);
-    } else {
+    //if (schema) {
+    //  schema = AutoForm.Utility.lookup(schema);
+    //} else {
+    if(!schema) {
       var collection = AutoForm.Utility.lookup(data.collection);
       if (collection && typeof collection.simpleSchema === 'function') {
         schema = collection.simpleSchema();
